@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page4">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/too"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backg"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="290dp"
+        android:layout_height="476dp"
+        android:text="@string/in_a_historical_sense_the_term_quot_illuminati_quot_refers_to_the_bavarian_illuminati_a_secret_society_that_operated_for_only_a_decade_from_1776_to_1785_this_organization_was_founded_by_adam_weishaupt_a_german_law_professor_who_believed_strongly_in_enlightenment_ideals_and_his_lluminatenorden_sought_to_promote_those_ideals_among_elites_weishaupt_wanted_to_educate_illuminati_members_in_reason_philanthropy_and_other_secular_values_so_that_they_could_influence_political_decisions_when_they_came_to_power_quot_it_was_pretty_ambitious_for_six_or_nine_guys_but_they_really_wanted_to_take_over_the_world_quot_says_chris_hodapp_the_co_author_of_conspiracy_theories_and_secret_societies_for_dummies_with_alice_vonkannon_the_illuminati_s_goals_and_reputation_often_exceeded_their_means_hodapp_notes_in_its_early_days_the_group_was_just_a_handful_of_people_and_even_at_its_largest_it_only_consisted_of_somewhere_between_650_and_2_500_members_the_group_grew_to_that_size_by_becoming_a_sort_of_sleeper_cell_within_other_groups_illuminati_members_joined_freemason_lodges_to_recruit_members_for_their_own_competing_secret_society"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.538" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

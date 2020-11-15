@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page5">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/too"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="298dp"
+        android:layout_height="494dp"
+        android:text="@string/the_series_of_boulders_that_make_up_stonehenge_have_long_puzzled_experts_and_provided_material_ripe_for_conspiracy_theorists_most_pertinent_is_the_question_how_were_the_stones_some_weighing_50_tons_transported_and_arranged_to_where_they_sit_today_without_basic_transportation_technology_such_as_wheels_which_were_invented_more_than_five_centuries_after_stonehenge_is_believed_to_have_been_built_there_is_no_obvious_answer_to_how_the_biggest_stones_were_moved_much_of_what_scientists_do_know_about_the_construction_of_stonehenge_is_from_educated_guesses_and_constantly_evolving_research_the_newest_of_which_suggests_that_in_fact_two_of_the_largest_boulders_that_make_up_stonehenge_have_always_been_more_or_less_where_they_sit_today_alternatively_of_course_scientists_could_shun_the_research_and_read_erich_von_d_niken_s_seminal_book_chariots_of_the_gods_which_makes_the_argument_that_many_ancient_megastructures_such_as_stonehenge_the_egyptian_pyramids_and_the_moai_heads_of_easter_island_were_built_using_know_how_passed_down_from_god_like_aliens_to_mankind_says_the_independent_though_why_the_extraterrestrials_would_pass_on_the_knowledge_of_how_to_build_stonehenge_but_not_the_wheel_is_anyone_s_guess"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

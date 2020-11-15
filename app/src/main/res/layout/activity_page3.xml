@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/too"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="429dp"
+        android:text="@string/conspiracy_theorists_posit_that_the_denver_international_airport_dia_is_a_hub_for_the_lizard_people_who_run_the_government_and_much_of_the_world_just_read_our_feature_about_it_some_believe_dia_is_the_home_base_of_the_illuminati_while_others_believe_it_s_actually_a_portal_to_hell_with_blucifer_the_giant_blue_horse_sculpture_which_killed_the_artist_who_made_it_with_demonic_glowing_red_eyes_guarding_the_gateway_there_are_the_weird_murals_on_the_walls_depicting_nazi_imagery_and_a_commemoration_capstone_plaque_that_mentions_the_new_world_airport_commission_an_organization_that_does_not_exist_between_that_the_gargoyles_in_jeppesen_terminal_and_the_interactive_gargoyle_that_welcomed_travelers_to_the_quot_illuminati_headquarters_quot_before_correcting_himself_and_welcoming_the_masses_to_quot_denver_international_airport_quot_dia_is_either_poking_fun_at_all_the_conspiracies_surrounding_the_facility_or_they_re_hiding_in_plain_sight"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
